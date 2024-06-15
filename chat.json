@@ -1,0 +1,45 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey"],
+      "responses": ["Hello! How can I assist you with your health today?", "Hi there! How can I help you stay healthy?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["Goodbye! Stay healthy!", "See you later! Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful"],
+      "responses": ["You're welcome!", "Glad to help!", "Anytime!"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you?", "What is your age?"],
+      "responses": ["I am ageless!", "Age is just a number, but I am a creation of the latest technology."]
+    },
+    {
+      "tag": "exercise",
+      "patterns": ["What exercises should I do?", "Recommend some exercises", "How to stay fit?"],
+      "responses": [
+        "Regular exercise is important! You can try cardio exercises like running or cycling, strength training like weight lifting, and flexibility exercises like yoga."
+      ]
+    },
+    {
+      "tag": "diet",
+      "patterns": ["What should I eat?", "Recommend a healthy diet", "What is a balanced diet?"],
+      "responses": [
+        "A balanced diet includes a variety of foods from all the food groups: fruits, vegetables, lean proteins, whole grains, and low-fat dairy. Remember to stay hydrated!"
+      ]
+    },
+    {
+      "tag": "mental_health",
+      "patterns": ["How to manage stress?", "Tips for mental health", "How to stay mentally healthy?"],
+      "responses": [
+        "Managing stress is important! Try activities like meditation, deep breathing exercises, regular physical activity, and ensuring you get enough sleep. Talking to someone you trust can also be very helpful."
+      ]
+    }
+  ]
+}
